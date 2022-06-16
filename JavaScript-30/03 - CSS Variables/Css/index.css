@@ -1,0 +1,40 @@
+  /*
+    misc styles, nothing to do with CSS variables
+    1、有关图片filter（过滤属性）的使用
+    2、有关css（类似less、sass）的原生css变量的使用
+  */
+  :root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+  }
+
+  body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+  }
+
+  .hl {
+    color: var(--base);
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+  input {
+    width: 100px;
+  }
+
+  img {
+    width: 800px;
+    height: 500px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+
+  }
+

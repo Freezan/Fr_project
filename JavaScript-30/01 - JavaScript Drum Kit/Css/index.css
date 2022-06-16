@@ -1,0 +1,50 @@
+html {
+    padding: 0;
+    width: 100%;
+    background: url('../img/小猪滚滚的幸福桌面壁纸.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.syllables {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.syllables .syllable {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #eee;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    transition: .08s;
+    user-select: none;
+}
+
+.syllables .syllable-with-down {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 2rem #ffc600;
+}
+
+.syllables .syllable p {
+    margin: 15px;
+    padding: 0;
+    font-size: 4em;
+    font-weight: bold;
+    color: #eee;
+}
+
+.syllables .syllable span {
+    margin: 15px;
+    font-size: 1em;
+    color: #eee;
+}
